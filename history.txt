@@ -1,0 +1,500 @@
+   50  pwd
+   51  ll
+   52  cd personal/
+   53  mkdir
+   54  mkdir frege
+   55  cd frege/
+   56  pwd
+   57  git clone https://github.com/Frege/frege.git
+   58  ll
+   59  pwd
+   60  ll
+   61  cd ..
+   62  cd frege/
+   63  brew install ruby
+   64  irb
+   65  groovy
+   66  cd ..
+   67  cd ..
+   68  ll
+   69  ghci test.hs
+   70  ghci
+   71  2
+   72  ghci
+   73  pip
+   74  which p
+   75  which python
+   76  cd /usr/bin/py
+   77  brew install FranklinChen/tap/hugs --HEAD
+   78  ghci
+   79  hugo
+   80  hugs
+   81  ghci
+   82  hugo
+   83  hugs
+   84  pwd
+   85  cd personal/
+   86  ll
+   87  cd pics1111/
+   88  cd ..
+   89  chmod -R 777 pics1111/
+   90  chown -R abhishekbhatia pics1111/
+   91  chmod -R 777 pics1111/
+   92  sudo systemsetup -setcomputersleep Never
+   93  sudo systemsetup -getcomputersleep
+   94  sudo systemsetup -setcomputersleep 
+   95  sudo systemsetup -setcomputersleep 10
+   96  sudo systemsetup -getcomputersleep
+   97  sudo systemsetup -setcomputersleep Never
+   98  sudo systemsetup -getcomputersleep
+   99  sudo systemsetup -setcomputersleep 10
+  100  sudo systemsetup -getcomputersleep
+  101  brew install caskroom/cask/brew-cask
+  102   brew cask install virtualbox
+  103  vagrant box add ubuntu/trusty64
+  104  vagrant box add file
+  105  llll
+  106  ll
+  107  cd personal/
+  108  ll
+  109  cd not\ copied/
+  110  pwd
+  111  ll
+  112  cd dumps/
+  113  cd vagrant/
+  114  cd 4\ ubuntu\ 1404\ image/
+  115  ll
+  116  cp trusty-server-cloudimg-amd64-vagrant-disk1.box /tmp/
+  117  vagrant box add /tmp/trusty-server-cloudimg-amd64-vagrant-disk1.box ?
+  118  vagrant box add /tmp/trusty-server-cloudimg-amd64-vagrant-disk1.box
+  119  vagrant box add box-ubuntu-14 /tmp/trusty-server-cloudimg-amd64-vagrant-disk1.box
+  120  mkdir -p ~/Projects/ubuntu-apache
+  121  cd ~/Projects/ubuntu-apache
+  122  vagrant init ubuntu/trusty64
+  123  vi Vagrantfile
+  124  ll
+  125  cat Vagrantfile > ""
+  126  cat "" > Vagrantfile 
+  127  truncate -s 0 Vagrantfile 
+  128  cp /dev/null Vagrantfile 
+  129  vi Vagrantfile
+  130  vi Vagrantfile
+  131  touch bootstrap.bash
+  132  vi bootstrap.bash 
+  133  ll
+  134  chmod 777 *.*
+  135  ll
+  136  vagrant up
+  137  vagrant init
+  138  rm -r Vagrantfile 
+  139  vagrant init
+  140  vagrant up
+  141  rm -r Vagrantfile 
+  142  vagrant init
+  143  rm -r Vagrantfile 
+  144  vagrant init ubuntu/trusty64
+  145  vagrant up
+  146  vi Vagrantfile 
+  147  vagrant up
+  148  cd ..
+  149  ll
+  150  cd ubuntu-apache/
+  151  ll
+  152  vagrant up
+  153  rm -r Vagrantfile 
+  154  vagrant init box-ubuntu-14
+  155  vagrant up
+  156  vagrant ssh
+  157  l
+  158  ll
+  159  cp /dev/null Vagrantfile 
+  160  vi Vagrantfile 
+  161  vagrant up
+  162  vi Vagrantfile ant.configure(2) do |config|
+  163    config.vm.box = "ubuntu/trusty64" # We are running Ubuntu in this project.
+  164    config.vm.provision :shell, path: "bootstrap.bash" # Tell Vagrant to run this script as part of the provisioning process.
+  165    config.vm.network :forwarded_port, host: 1080, guest: 80, auto_correct: true # So we can open: http://localhost:1080 and reach the virtual machine.
+  166    # ↑ Regarding this last option; for more information see: https://docs.vagrantup.com/v2/networking/forwarded_ports.html
+  167  cp /dev/null Vagrantfile 
+  168  rm -r Vagrantfile 
+  169  vagrant init box-ubuntu-14
+  170  vi Vagrantfile 
+  171  cp /dev/null Vagrantfile 
+  172  vi Vagrantfile 
+  173  vi Vagrantfile 
+  174  vagrant up
+  175  vi Vagrantfile 
+  176  cp /dev/null Vagrantfile 
+  177  vi Vagrantfile 
+  178  vagrant up
+  179  vagrant halt
+  180  vagrant up
+  181  apt-get
+  182  vagrant ssh
+  183  ll
+  184  less Vagrantfile 
+  185  vi Vagrantfile 
+  186  vagrant halt
+  187  vagrant up
+  188  exit
+  189  cd ~/Projects/ubuntu-apache
+  190  pwd
+  191  vagrant up\
+  192  vagrant up
+  193  vagrant destroy
+  194  ll
+  195  ll
+  196  vi Vagrantfile 
+  197  vagrant up
+  198  exit
+  199  cd ~/Projects/ubuntu-apache/
+  200  cpwd
+  201  pwd
+  202  vagrant destory
+  203  vagrant destroy
+  204  vi Vagrantfile 
+  205  cp /dev/null Vagrantfile 
+  206  ll
+  207  vi Vagrantfile 
+  208  vi Vagrantfile 
+  209  vagrant up
+  210  docker run hello-world
+  211  sudo docker -d &
+  212  sudo docker
+  213  sudo docker info
+  214  quit
+  215  exit
+  216  vagrant destory
+  217  vagrant destroy
+  218  ll
+  219  vi Vagrantfile 
+  220  mkdir host
+  221  cp Vagrantfile host/
+  222  ll
+  223  cd host/
+  224  ll
+  225  cd ..
+  226  cp /dev/null Vagrantfile 
+  227  ll
+  228  vi Vagrantfile 
+  229  vagrant up
+  230  cp /dev/null Vagrantfile 
+  231  vi Vagrantfile 
+  232  vagrant up
+  233  sudo docker
+  234  exit
+  235  exit
+  236  vagrant destroy
+  237  cd ~/Projects/ubuntu-apache/
+  238  ll
+  239  vagrant destroy
+  240  vagrant box add williamyeh/ubuntu-trusty64-docker
+  241  vagrant init williamyeh/ubuntu-trusty64-docker
+  242  vagrant init phusion/ubuntu-14.04-amd64
+  243  vagrant add phusion/ubuntu-14.04-amd64
+  244  vagrant box add phusion/ubuntu-14.04-amd64
+  245  vagrant box add ubuntu/trusty64
+  246  rm -r /tmp/trusty-server-cloudimg-amd64-vagrant-disk1.box 
+  247  ll /tmp
+  248  ll
+  249  cd ~/Downloads/
+  250  mv ubuntu-14.04-amd64-vbox.box /tmp
+  251  cd /tmp/
+  252  ll
+  253  mkdir -p ~/Projects/docker-ubuntu
+  254  vagrant box add docker-ubuntu-14 /tmp/ubuntu-14.04-amd64-vbox.box 
+  255  cd ~/Projects/docker-ubuntu/
+  256  ll
+  257  vagrant box add docker-ubuntu-14 /tmp/ubuntu-14.04-amd64-vbox.box pwd
+  258  pwd
+  259  vagrant init docker-ubuntu-14
+  260  vagrant up
+  261  mv /tmp/ubuntu-14.04-amd64-vbox.box ~/personal/not\ copied/
+  262  vagrant ssh
+  263  exit
+  264  vagrant box add ubuntu/trusty64
+  265  vagrant box add williamyeh/insecure-registry
+  266  VBoxManage list vms
+  267  vagrant package --base docker-ubuntu_default_1450339727137_88793 --output /tmp/ubuntudocker.box
+  268  VBoxManage list vms
+  269  mkdir -p ~/Projects/ubuntu-docker
+  270  cd ~/Projects/ubuntu-docker/
+  271  ll
+  272  vagrant init docker-ubuntu-141
+  273  vagrant up
+  274  vi Vagrantfile 
+  275  less Vagrantfile 
+  276  vi Vagrantfile 
+  277  less Vagrantfile 
+  278  vagrant up
+  279  vagrant destory
+  280  vagrant destroy
+  281  VBoxManage list vms
+  282  pwd
+  283  vagrant up
+  284  vagrant destory
+  285  vagrant destroy
+  286  cd ..
+  287  ll
+  288  cd ubuntu-docker/
+  289  vi 
+  290  vi Vagrantfile 
+  291  vi ~vagrant/.ssh/authorized_keys
+  292  cd ~/.ssh/
+  293  ll
+  294  touch authorized_keys
+  295  vi .ssh/authorized_keys
+  296  ll
+  297  chmod 700 .ssh
+  298  chmod 700 ~/.ssh
+  299  chmod 600 .ssh/authorized_keys
+  300  chown -R vagrant:vagrant .ssh
+  301  cd ~/Projects/
+  302  ll
+  303  cd ubuntu-docker/
+  304  vagrant up
+  305  vagrant halt
+  306  vagrant halt
+  307  vagrant destroy
+  308  vagrant up
+  309  vagrant destroy
+  310  pwd
+  311  cd ..
+  312  mkdir -p ~/Projects/ubuntu-apache
+  313  mkdir -p ~/Projects/ubuntu-apache
+  314  mkdir -p ~/Projects/ubuntu-docker_main
+  315  cd ~/Projects/ubuntu-docker
+  316  cd ..
+  317  cd ~/Projects/ubuntu-docker_main/
+  318  pwd
+  319  vagrant box add docker-ubuntu-main /tmp/insecure_registry_william.box
+  320  pwd
+  321  vagrant init docker-ubuntu-main
+  322  vagrant up
+  323  vagrant ssh
+  324  vagrant
+  325  vagrant halt
+  326  VBoxManage list vms
+  327  cd ..
+  328  ll
+  329  rm -r ubuntu-apache/ ubuntu-docker
+  330  ll
+  331  cd ubuntu-docker_main/
+  332  ll
+  333  vagrant up
+  334  sudo docker run hello-world
+  335  sudo docker run hello-world
+  336  sudo service docker start
+  337  vagrant ssh
+  338  exit
+  339  cd ~/Projects/ubuntu-docker_main_1/
+  340  cd ..
+  341  cd ~/Projects/ubuntu-docker_main
+  342  vagrant up
+  343  vagrant ssh
+  344  ll
+  345  ll
+  346  vagrant up
+  347  vagrant ssh
+  348  vagrant halt
+  349  vagrant ssh
+  350  vagrant up
+  351  vagrant ssh
+  352  history
+  353  history | sleep
+  354  grep sleep `history`
+  355  history
+  356  sudo systemsetup -setcomputersleep Never
+  357  sudo systemsetup -getcomputersleep
+  358  groovy
+  359  groovysh
+  360  groovyConsole
+  361  cd ~/Projects/docker-ubuntu/
+  362  ll
+  363  vagrant destroy
+  364  vagrant destroy
+  365  ll
+  366  pwd
+  367  vagrant up
+  368  vagrant ssh
+  369  cd /tmp
+  370  ll
+  371  ll
+  372  ll
+  373  ll
+  374  ll
+  375  ll
+  376  cd ~/Projects/
+  377  ll
+  378  cd docker-ubuntu/
+  379  ll
+  380  cd ..
+  381  rm -r docker-ubuntu/
+  382  mkdir docker-ubun
+  383  ll
+  384  cd docker-ubun/
+  385  ll
+  386  ll /tmp
+  387  cd /tmp/
+  388  ll
+  389  cd ~/Projects/
+  390  cd docker-ubun/
+  391  vagrant box add docker-ubuntu-141 /tmp/ubuntudocker.box 
+  392  vagrant init box-ubuntu-141
+  393  vagrant up
+  394  vagrant init docker-ubuntu-141
+  395  rm -r Vagrantfile 
+  396  vagrant init docker-ubuntu-141
+  397  vagrant up
+  398  ll
+  399  pwd
+  400  vi Vagrantfile 
+  401  cd ..
+  402  rm -r docker-ubun/
+  403  cd ~/Projects/ubuntu-docker/
+  404  ll
+  405  less Vagrantfile 
+  406  pwd
+  407  cd ..
+  408  mkdir -p ~/Projects/ubuntu-apache
+  409  cd ~/Projects/ubuntu-apache
+  410   vagrant box add docker-ubuntu-142 /tmp/ubuntu-14.04-amd64-vbox.box 
+  411  vagrant init docker-ubuntu-142
+  412  pwd
+  413  ll
+  414  vagrant up
+  415  vagrant ssh
+  416  vagrant halt
+  417  cd ..
+  418  pwd
+  419  ll
+  420  mkdir -p ~/Projects/ubuntu-docker_main_1
+  421  cd ~/Projects/ubuntu-docker_main_1/
+  422  vagrant init docker-ubuntu-main
+  423  vagrant up
+  424  vagrant ssh
+  425  vagrant ssh
+  426  vagrant halt
+  427  vagrant ssh
+  428  vagrant up
+  429  vagrant ssh
+  430  /Users/abhishekbhatia/Dropbox/workspace_imac_sts/learning-spring-boot-code/ch2/issue-manager-2/gradlew ; exit;
+  431  exit
+  432  open .
+  433  cd ~
+  434  cd .m2/
+  435  ll
+  436  cd repository/
+  437  l
+  438  ll
+  439  pwd
+  440  cd ~
+  441  ll
+  442  pwd
+  443  cd personal/
+  444  cd ~
+  445  cd Dropbox/
+  446  cd workspace_imac_sts/
+  447  ll
+  448  ll
+  449  git pull https://github.com/gregturn/learning-spring-boot-code.
+  450  git pull https://github.com/gregturn/learning-spring-boot-code
+  451  git clone https://github.com/gregturn/learning-spring-boot-code
+  452  ll
+  453  cd learning-spring-boot-code/
+  454  ll
+  455  cd ch1
+  456  ll
+  457  cd ..
+  458  ll
+  459  cd ch2
+  460  ll
+  461  cd issue-manager-5/
+  462  ll
+  463  ./gradlew clean build
+  464  gradlew
+  465  brew install gradle
+  466  gradle wrapper
+  467  ./gradlew clean build
+  468  jps
+  469  cd Work/
+  470  ll
+  471  cd BigData/
+  472  ll
+  473  cd resources/
+  474  cd ..
+  475  . resources/bin/sparkpath.sh
+  476  spark-shell
+  477  cd ~/.bashrc 
+  478  vi ~/.bashrc 
+  479  bash
+  480  vi ~/.bashrc 
+  481  spark-shell
+  482  hadoop fs -copyFromLocal $WORK_HOME/resources/spark/RELEASE  
+  483  jps
+  484  spark-shell
+  485  try
+  486      tell application "Finder" to set the clipboard to POSIX path of (target of window 1 as alias)
+  487  on error
+  488      beep
+  489  spark-shell
+  490  hadoop fs -copyFromLocal /Users/abhishekbhatia/Downloads/learning-spark-master/files/*.* log
+  491  hadoop fs -copyFromLocal /Users/abhishekbhatia/Downloads/learning-spark-master/
+  492  hadoop fs -copyFromLocal /Users/abhishekbhatia/Downloads/learning-spark-master/files/*.* log
+  493  hadoop fs -mkdir -p log
+  494  hadoop fs -copyFromLocal /Users/abhishekbhatia/Downloads/learning-spark-master/files/*.* log
+  495  hadoop fs -copyFromLocal /Users/abhishekbhatia/Downloads/learning-spark-master/files/fake_logs/*.* log
+  496  spark-shell
+  497  history
+  498  spark-shell
+  499  spark-shell
+  500  spark-shell
+  501  mvn -version
+  502  brew tap pivotal/tap
+  503  brew install springboot
+  504  git
+  505  git branch
+  506  pwd
+  507  cd Work/
+  508  ll
+  509  mkdir git
+  510  git init
+  511  git branch
+  512  git status
+  513  ll
+  514  cd git
+  515  git init
+  516  ll
+  517  git statsu
+  518  git status
+  519  touch abc.txt
+  520  git status
+  521  git add abc.txt 
+  522  git status
+  523  git commit -m "First test"
+  524  git status
+  525  git branch
+  526  touch a.txt
+  527  touch a.txt b.txt
+  528  git status
+  529  git add -A
+  530  mkdir docs
+  531  touch docs/d.txt
+  532  ll
+  533  git status
+  534  git add docs/
+  535  git status
+  536  git commit -m "abc"
+  537  git log
+  538  git diff --staged
+  539  touch c.txt
+  540  touch c.txt
+  541  git diff --staged
+  542  git add c.txt 
+  543  git diff --staged
+  544  ll
+  545  git diff --staged
+  546  clear
+  547  git diff --staged
+  548  git diff -staged
+  549  history > history.txt
